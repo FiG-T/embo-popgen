@@ -49,8 +49,7 @@ south_freq <- freq_derived(south_pop)
 
 # get sfs
 north_sfs <- hist(north_freq, plot=FALSE)$counts
-south_sfs <- hist(south_freq, plot=FALSE)$counts 
-
+south_sfs <- hist(south_freq, plot=FALSE)$counts  
 # this does not work as it counts 0s 
 
 
